@@ -5,8 +5,8 @@ import Test from "./Components/test";
 function App() {
   return (
     <div className="">
-      <HomePage />
-      {/* <Test /> */}
+      {/* <HomePage /> */}
+      <Test />
     </div>
   );
 }

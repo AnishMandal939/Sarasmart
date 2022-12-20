@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageSlider from '../../Banner/ImageSlider'
+import Footer from '../../Footer/Footer'
 import NavBar from '../../Navbar/NavBar'
 import ExclusiveProducts from './ExclusiveProducts'
 import ForYouProducts from './ForYouProducts'
@@ -41,6 +42,8 @@ const HomePage = () => {
                     <ForYouProducts />
                 </div>
             </div>
+
+            <Footer />
 
         </div>
     )

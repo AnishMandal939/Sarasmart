@@ -5,7 +5,7 @@ const OrderCart = () => {
         <div className='flex flex-row space-x-4  w-[90%]'>
 
             {/* items details */}
-            <div className=' bg-white w-[60%] overflow-hidden shadow-xl border-[1px] rounded-md px-16 pt-8 pb-10'>
+            <div className=' bg-white w-[60%] h-fit overflow-hidden shadow-xl border-[1px] rounded-md px-16 pt-8 pb-10'>
                 <div className='flex items-center w-full space-x-5'>
                     {/* product name */}
                     <div className='w-[40%] px-10 flex flex-col flex-wrap space-y-2'>
@@ -44,7 +44,7 @@ const OrderCart = () => {
 
 
             {/*order summary */}
-            <div className=' block px-6 pb-8 pt-5 w-[30%] bg-white shadow-xl border-[1px] rounded-md space-y-5'>
+            <div className=' block px-6 pb-8 h-fit pt-5 w-[30%] bg-white shadow-xl border-[1px] rounded-md space-y-5'>
                 <div className='flex sticky flex-col space-y-2'>
                     <h1 className='capitalize text-lg text-gray-600'>your order</h1>
                     <div className='flex items-center'>

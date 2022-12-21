@@ -1,4 +1,8 @@
 import React from 'react'
+import LoginCard from './Auth/LoginCard'
+import RegisterCard from './Auth/RegisterCard'
+import LoginPage from './Pages/Login&RegisterPage/LoginPage'
+import RegisterPage from './Pages/Login&RegisterPage/RegisterPage'
 import CartPage from './Pages/OrderCart/CartPage'
 import OrderCart from './Pages/OrderCart/OrderCart'
 import ProductDetailsPage from './Pages/ProductDetails/ProductDetailsPage'
@@ -12,7 +16,11 @@ const Test = () => {
             {/* <ProductCardWithDiscount /> */}
             {/* <ProductDetailsPage /> */}
             {/* <SearchPage /> */}
-            <CartPage />
+            {/* <CartPage /> */}
+            {/* <LoginCard /> */}
+            {/* <LoginPage /> */}
+            {/* <RegisterCard /> */}
+            <RegisterPage />
 
         </>
     )

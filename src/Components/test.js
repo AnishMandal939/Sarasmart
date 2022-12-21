@@ -1,6 +1,10 @@
 import React from 'react'
 import LoginCard from './Auth/LoginCard'
 import RegisterCard from './Auth/RegisterCard'
+import BillingDetails from './Pages/Checkout/BillingDetails'
+import OrderCheckOutPage from './Pages/Checkout/OrderCheckOutPage'
+import OrderSummary from './Pages/Checkout/OrderSummary'
+import ShippingDetails from './Pages/Checkout/ShippingDetails'
 import LoginPage from './Pages/Login&RegisterPage/LoginPage'
 import RegisterPage from './Pages/Login&RegisterPage/RegisterPage'
 import CartPage from './Pages/OrderCart/CartPage'
@@ -20,7 +24,11 @@ const Test = () => {
             {/* <LoginCard /> */}
             {/* <LoginPage /> */}
             {/* <RegisterCard /> */}
-            <RegisterPage />
+            {/* <RegisterPage /> */}
+            {/* <BillingDetails /> */}
+            {/* <ShippingDetails /> */}
+            {/* <OrderSummary /> */}
+            <OrderCheckOutPage />
 
         </>
     )

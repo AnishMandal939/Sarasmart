@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
 import NavBar from '../../Navbar/NavBar'
 import OrderCart from './OrderCart'
 
@@ -23,6 +24,7 @@ const CartPage = () => {
                 <div className='flex items-center justify-center'>
                     <OrderCart />
                 </div>
+
             </div>
 
         </>

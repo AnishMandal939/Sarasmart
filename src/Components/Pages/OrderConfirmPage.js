@@ -1,9 +1,9 @@
 import React from 'react'
-import Footer from '../../Footer/Footer'
-import NavBar from '../../Navbar/NavBar'
-import PaymentMethod from './PaymentMethod'
+import Footer from '../Footer/Footer'
+import OrderConfirmInvoice from '../Invoice/OrderConfirmInvoice'
+import NavBar from '../Navbar/NavBar'
 
-const PaymentMethodPage = () => {
+const OrderConfirmPage = () => {
     return (
         <div>
             <div>
@@ -16,11 +16,11 @@ const PaymentMethodPage = () => {
                         <span className='w-28 h-1 bg-gray-700'></span>
                         <span className='w-8 h-8 bg-gray-700 rounded-full'></span>
                     </div>
-                    <p className='font-bold text-xl pb-1 text-gray-700 capitalize'>payment methods</p>
+                    <p className='font-bold text-xl pb-1 text-gray-700 capitalize'>thankyou!</p>
                 </div>
 
-                <div className='px-32 pt-10'>
-                    <PaymentMethod />
+                <div className='flex items-center justify-center pt-10'>
+                    <OrderConfirmInvoice />
                 </div>
             </div>
             <Footer />
@@ -28,4 +28,4 @@ const PaymentMethodPage = () => {
     )
 }
 
-export default PaymentMethodPage
+export default OrderConfirmPage

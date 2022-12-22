@@ -1,6 +1,7 @@
 import React from 'react'
 import LoginCard from './Auth/LoginCard'
 import RegisterCard from './Auth/RegisterCard'
+import OrderConfirmInvoice from './Invoice/OrderConfirmInvoice'
 import BillingDetails from './Pages/Checkout/BillingDetails'
 import OrderCheckOutPage from './Pages/Checkout/OrderCheckOutPage'
 import OrderSummary from './Pages/Checkout/OrderSummary'
@@ -9,6 +10,7 @@ import LoginPage from './Pages/Login&RegisterPage/LoginPage'
 import RegisterPage from './Pages/Login&RegisterPage/RegisterPage'
 import CartPage from './Pages/OrderCart/CartPage'
 import OrderCart from './Pages/OrderCart/OrderCart'
+import OrderConfirmPage from './Pages/OrderConfirmPage'
 import PaymentMethod from './Pages/PaymentMethod/PaymentMethod'
 import PaymentMethodPage from './Pages/PaymentMethod/PaymentMethodPage'
 import ProductDetailsPage from './Pages/ProductDetails/ProductDetailsPage'
@@ -32,7 +34,9 @@ const Test = () => {
             {/* <OrderSummary /> */}
             {/* <OrderCheckOutPage /> */}
             {/* <PaymentMethod /> */}
-            <PaymentMethodPage />
+            {/* <PaymentMethodPage /> */}
+            {/* <OrderConfirmInvoice /> */}
+            <OrderConfirmPage />
         </>
     )
 }

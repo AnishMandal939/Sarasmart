@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchBar = () => {
     return (
-        <div className='bg-white shadow-md sticky w-full h-16 flex items-center justify-between px-10'>
+        <div className='bg-white shadow-md sticky z-50 w-full h-16 flex items-center justify-between px-10'>
 
             {/* logo */}
             <div className='logo'>

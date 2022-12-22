@@ -1,0 +1,146 @@
+/*default table css start*/
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+table thead {
+    background-color: #d4d4d4;
+    color: #067692;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table thead tr th {
+    font-weight: 300;
+    transition: all 600ms ease;
+    background-color: #e43436;
+    color: #fff;
+}
+
+table>tbody>tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+table>tbody>tr:hover {
+    background-color: rgba(0, 125, 156, 0.2);
+    transition: all 600ms ease;
+}
+
+table>tbody>tr>td,
+table>tbody>tr>th,
+table>thead>tr>td,
+table>thead>tr>th {
+    padding: 10px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+
+.general-wrap {
+    padding: 30px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.14);
+}
+
+.general-wrap h6 {
+    font-size: 18px;
+    color: #e43436;
+}
+
+.colorGreen {
+    color: #0f5b5b !important;
+}
+
+#user-order-invoice {
+    margin-top: 10px;
+}
+
+#user-order-invoice h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#user-order-invoice table td.custom-empty-colspan {
+    border-color: #fff !important;
+    border-right: 1px solid #F5F5F5 !important;
+}
+
+.user-overview-right .table-bordered thead td,
+.table-bordered thead th {
+    border-bottom-width: 0px !important;
+}
+
+#user-order-invoice table td.custom-empty-colspan {
+    border-color: #fff !important;
+    border-right: 1px solid #F5F5F5 !important;
+}
+
+#payment-method div {}
+
+#payment-method {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-top: 10px;
+}
+
+#payment-method tr td img {
+    width: 70px;
+    float: right;
+}
+
+#payment-method tr td label {
+    margin-bottom: 0px;
+}
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    text-decoration: none;
+    transition: all 600ms ease;
+    box-shadow: none;
+}
+
+.btn {
+    /*box-shadow: 0.707px 0.707px 11px 0px rgba(146, 214, 242, 0.49);*/
+    border-radius: 50px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    /*border-width: 3px;*/
+    /*border-color: rgb(225, 225, 225);
+    border-style: solid;*/
+}
+
+.btn:hover,
+.btn:focus {
+    border-color: rgb(225, 225, 225);
+}
+
+.btn-success {
+    background-color: rgb(20, 144, 72);
+}
+
+.btn-link {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    color: #e43436;
+}
+
+.btn-continue {
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 100;
+}
+
+/*default table css end*/

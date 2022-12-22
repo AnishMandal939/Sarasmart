@@ -9,6 +9,8 @@ import LoginPage from './Pages/Login&RegisterPage/LoginPage'
 import RegisterPage from './Pages/Login&RegisterPage/RegisterPage'
 import CartPage from './Pages/OrderCart/CartPage'
 import OrderCart from './Pages/OrderCart/OrderCart'
+import PaymentMethod from './Pages/PaymentMethod/PaymentMethod'
+import PaymentMethodPage from './Pages/PaymentMethod/PaymentMethodPage'
 import ProductDetailsPage from './Pages/ProductDetails/ProductDetailsPage'
 import SearchCard from './Pages/SearchPage/SearchCard'
 import SearchPage from './Pages/SearchPage/SearchPage'
@@ -28,8 +30,9 @@ const Test = () => {
             {/* <BillingDetails /> */}
             {/* <ShippingDetails /> */}
             {/* <OrderSummary /> */}
-            <OrderCheckOutPage />
-
+            {/* <OrderCheckOutPage /> */}
+            {/* <PaymentMethod /> */}
+            <PaymentMethodPage />
         </>
     )
 }
